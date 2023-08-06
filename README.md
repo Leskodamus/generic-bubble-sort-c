@@ -1,6 +1,8 @@
 # Generic Bubble Sort Library in C
 
-Sort any type using a custom comparator function in C using the bubble sort algorithm
+Sort any type using a custom comparator function in C using the bubble sort algorithm.
+
+No preprocessing using macros and no use of `_Generic`, just pure C.
 
 ## Usage
 
