@@ -48,11 +48,11 @@ Sorting an array of integers using the library provided `cmp_int` comparator:
 #include "generic_bubble_sort.h"
 
 /* Sort an array of integers using cmp_int */
+
 int arr[] = { 3, 2, 5, 1 }; 
 size_t arr_len = sizeof(arr) / sizeof(arr[0]);
+
 sort(arr, arr_len, sizeof(arr[0]), cmp_int);
 
-/*
- * Array after sort: { 1, 2, 3, 5}
-*/
+/* Array after sort: { 1, 2, 3, 5} */
 ```
